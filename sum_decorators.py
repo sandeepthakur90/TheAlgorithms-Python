@@ -4,9 +4,8 @@ def decor_func(result_students):
             if m >=75:
                 print("distinction")
         result_students(marks)
-    return distinction            
-
-
+    return distinction   
+    
 @decor_func
 def result(marks):
     for m in marks:
